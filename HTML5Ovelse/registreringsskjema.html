@@ -30,27 +30,38 @@
         <form method="post" action="#">
             <label for="navn">Navn:</label>
             <input type="text" name="navn" placeholder="Nora Nordmann" id="navn" maxlength="45" pattern="[A-Za-zæøåÆØÅ ]{2,}" required> 
-
+        </form>
+        <form>
             <label>
                 E-post:
                 <input type="email" name="email" placeholder="eksempel@hiof.no" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
             </label>
+        </form>
+        <form>
             <label>
                 Passord:
                 <input type="password" name="Passord" placeholder="Passord" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
             </label>
+        </form>
+        <form>
             <label>
                 Alder:
                 <input type="number" name="Alder" min="18" max="99" required>
             </label>
+        </form>
+        <form>
             <label>
                 Tlf:
                 <input type="tel" name="nummer" pattern="[0-9]{8,12}" placeholder="+4799556699" required>
             </label>
+        </form>
+        <form>
             <label>
             Fødseldato:
             <input type="date" max="2023-12-31" required>
             </label>
+        </form>
+        <form>
             <label>
                 Kjønn:
             </label>
@@ -66,6 +77,8 @@
                 Annet
                 <input type="radio" name="valg" required>
             </label>
+        </form>
+        <form>
             <label>
             Land:
                     <select name="Land" required>
@@ -75,10 +88,14 @@
                         <option value="danmark">Danmark</option>
                     </select>
             </label>
+        </form>
+        <form>
             <label>
                 Personvern:
                 <input type="checkbox" required> 
             </label>
+        </form>
+        <form>
             <label>
                 Send skjemaet:
                 <input type="submit" value="send skjemaet">
