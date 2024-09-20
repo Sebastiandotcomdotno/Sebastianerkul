@@ -1,3 +1,40 @@
-img{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#mainlogo{
     width: 15%;
+    max-width: 250px;
+    margin:0px auto;
+    display: block;
+}
+.flexmenu{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.flexmenu a{
+    text-decoration: none;
+    color: black;
+}
+.flexspaceb{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.flexspaceb form label{
+    visibility: hidden;
+    position: absolute;
+}
+.flexspaceb form{
+    position: relative;
+}
+
+#outlet{
+    color: red;
 }
